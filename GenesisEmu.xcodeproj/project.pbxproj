@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F77032D24B6883F00117AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77032C24B6883F00117AD1 /* AppDelegate.swift */; };
+		1F77032F24B6883F00117AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77032E24B6883F00117AD1 /* ContentView.swift */; };
+		1F77033124B6884200117AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F77033024B6884200117AD1 /* Assets.xcassets */; };
+		1F77033424B6884200117AD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F77033324B6884200117AD1 /* Preview Assets.xcassets */; };
+		1F77033724B6884200117AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F77033524B6884200117AD1 /* Main.storyboard */; };
+		1F77034324B6884200117AD1 /* GenesisEmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77034224B6884200117AD1 /* GenesisEmuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F77033F24B6884200117AD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F77032124B6883F00117AD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F77032824B6883F00117AD1;
+			remoteInfo = GenesisEmu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F77032924B6883F00117AD1 /* GenesisEmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenesisEmu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F77032C24B6883F00117AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F77032E24B6883F00117AD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F77033024B6884200117AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F77033324B6884200117AD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F77033624B6884200117AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F77033824B6884200117AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F77033924B6884200117AD1 /* GenesisEmu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GenesisEmu.entitlements; sourceTree = "<group>"; };
+		1F77033E24B6884200117AD1 /* GenesisEmuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesisEmuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F77034224B6884200117AD1 /* GenesisEmuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenesisEmuTests.swift; sourceTree = "<group>"; };
+		1F77034424B6884200117AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F77032624B6883F00117AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F77033B24B6884200117AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F77032024B6883F00117AD1 = {
+			isa = PBXGroup;
+			children = (
+				1F77032B24B6883F00117AD1 /* GenesisEmu */,
+				1F77034124B6884200117AD1 /* GenesisEmuTests */,
+				1F77032A24B6883F00117AD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F77032A24B6883F00117AD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F77032924B6883F00117AD1 /* GenesisEmu.app */,
+				1F77033E24B6884200117AD1 /* GenesisEmuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F77032B24B6883F00117AD1 /* GenesisEmu */ = {
+			isa = PBXGroup;
+			children = (
+				1F77032C24B6883F00117AD1 /* AppDelegate.swift */,
+				1F77032E24B6883F00117AD1 /* ContentView.swift */,
+				1F77033024B6884200117AD1 /* Assets.xcassets */,
+				1F77033524B6884200117AD1 /* Main.storyboard */,
+				1F77033824B6884200117AD1 /* Info.plist */,
+				1F77033924B6884200117AD1 /* GenesisEmu.entitlements */,
+				1F77033224B6884200117AD1 /* Preview Content */,
+			);
+			path = GenesisEmu;
+			sourceTree = "<group>";
+		};
+		1F77033224B6884200117AD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F77033324B6884200117AD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F77034124B6884200117AD1 /* GenesisEmuTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F77034224B6884200117AD1 /* GenesisEmuTests.swift */,
+				1F77034424B6884200117AD1 /* Info.plist */,
+			);
+			path = GenesisEmuTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F77032824B6883F00117AD1 /* GenesisEmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F77034724B6884200117AD1 /* Build configuration list for PBXNativeTarget "GenesisEmu" */;
+			buildPhases = (
+				1F77032524B6883F00117AD1 /* Sources */,
+				1F77032624B6883F00117AD1 /* Frameworks */,
+				1F77032724B6883F00117AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenesisEmu;
+			productName = GenesisEmu;
+			productReference = 1F77032924B6883F00117AD1 /* GenesisEmu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F77033D24B6884200117AD1 /* GenesisEmuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F77034A24B6884200117AD1 /* Build configuration list for PBXNativeTarget "GenesisEmuTests" */;
+			buildPhases = (
+				1F77033A24B6884200117AD1 /* Sources */,
+				1F77033B24B6884200117AD1 /* Frameworks */,
+				1F77033C24B6884200117AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F77034024B6884200117AD1 /* PBXTargetDependency */,
+			);
+			name = GenesisEmuTests;
+			productName = GenesisEmuTests;
+			productReference = 1F77033E24B6884200117AD1 /* GenesisEmuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F77032124B6883F00117AD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Tad Parrish";
+				TargetAttributes = {
+					1F77032824B6883F00117AD1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1F77033D24B6884200117AD1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1F77032824B6883F00117AD1;
+					};
+				};
+			};
+			buildConfigurationList = 1F77032424B6883F00117AD1 /* Build configuration list for PBXProject "GenesisEmu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F77032024B6883F00117AD1;
+			productRefGroup = 1F77032A24B6883F00117AD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F77032824B6883F00117AD1 /* GenesisEmu */,
+				1F77033D24B6884200117AD1 /* GenesisEmuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F77032724B6883F00117AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F77033724B6884200117AD1 /* Main.storyboard in Resources */,
+				1F77033424B6884200117AD1 /* Preview Assets.xcassets in Resources */,
+				1F77033124B6884200117AD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F77033C24B6884200117AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F77032524B6883F00117AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F77032F24B6883F00117AD1 /* ContentView.swift in Sources */,
+				1F77032D24B6883F00117AD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F77033A24B6884200117AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F77034324B6884200117AD1 /* GenesisEmuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F77034024B6884200117AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F77032824B6883F00117AD1 /* GenesisEmu */;
+			targetProxy = 1F77033F24B6884200117AD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F77033524B6884200117AD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F77033624B6884200117AD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F77034524B6884200117AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F77034624B6884200117AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1F77034824B6884200117AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GenesisEmu/GenesisEmu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GenesisEmu/Preview Content\"";
+				DEVELOPMENT_TEAM = 45KBHWT967;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GenesisEmu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parrisharts.GenesisEmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1F77034924B6884200117AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GenesisEmu/GenesisEmu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GenesisEmu/Preview Content\"";
+				DEVELOPMENT_TEAM = 45KBHWT967;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GenesisEmu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parrisharts.GenesisEmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1F77034B24B6884200117AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 45KBHWT967;
+				INFOPLIST_FILE = GenesisEmuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parrisharts.GenesisEmuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesisEmu.app/Contents/MacOS/GenesisEmu";
+			};
+			name = Debug;
+		};
+		1F77034C24B6884200117AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 45KBHWT967;
+				INFOPLIST_FILE = GenesisEmuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parrisharts.GenesisEmuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesisEmu.app/Contents/MacOS/GenesisEmu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F77032424B6883F00117AD1 /* Build configuration list for PBXProject "GenesisEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F77034524B6884200117AD1 /* Debug */,
+				1F77034624B6884200117AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F77034724B6884200117AD1 /* Build configuration list for PBXNativeTarget "GenesisEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F77034824B6884200117AD1 /* Debug */,
+				1F77034924B6884200117AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F77034A24B6884200117AD1 /* Build configuration list for PBXNativeTarget "GenesisEmuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F77034B24B6884200117AD1 /* Debug */,
+				1F77034C24B6884200117AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F77032124B6883F00117AD1 /* Project object */;
+}

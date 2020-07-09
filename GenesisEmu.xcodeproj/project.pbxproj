@@ -13,6 +13,11 @@
 		1F77033424B6884200117AD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F77033324B6884200117AD1 /* Preview Assets.xcassets */; };
 		1F77033724B6884200117AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F77033524B6884200117AD1 /* Main.storyboard */; };
 		1F77034324B6884200117AD1 /* GenesisEmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77034224B6884200117AD1 /* GenesisEmuTests.swift */; };
+		1F77034F24B6893D00117AD1 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77034D24B6893D00117AD1 /* MyImage.swift */; };
+		1F77035024B6893D00117AD1 /* RGBA32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77034E24B6893D00117AD1 /* RGBA32.swift */; };
+		1F77035224B6CD7C00117AD1 /* M68000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77035124B6CD7C00117AD1 /* M68000.swift */; };
+		1F77035424B6D5F500117AD1 /* BitTwiddling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77035324B6D5F500117AD1 /* BitTwiddling.swift */; };
+		1F77035624B7E39500117AD1 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77035524B7E39500117AD1 /* Memory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,11 @@
 		1F77033E24B6884200117AD1 /* GenesisEmuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesisEmuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F77034224B6884200117AD1 /* GenesisEmuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenesisEmuTests.swift; sourceTree = "<group>"; };
 		1F77034424B6884200117AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F77034D24B6893D00117AD1 /* MyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		1F77034E24B6893D00117AD1 /* RGBA32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBA32.swift; sourceTree = "<group>"; };
+		1F77035124B6CD7C00117AD1 /* M68000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M68000.swift; sourceTree = "<group>"; };
+		1F77035324B6D5F500117AD1 /* BitTwiddling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitTwiddling.swift; sourceTree = "<group>"; };
+		1F77035524B7E39500117AD1 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,13 @@
 		1F77032B24B6883F00117AD1 /* GenesisEmu */ = {
 			isa = PBXGroup;
 			children = (
+				1F77034D24B6893D00117AD1 /* MyImage.swift */,
+				1F77034E24B6893D00117AD1 /* RGBA32.swift */,
 				1F77032C24B6883F00117AD1 /* AppDelegate.swift */,
 				1F77032E24B6883F00117AD1 /* ContentView.swift */,
+				1F77035124B6CD7C00117AD1 /* M68000.swift */,
+				1F77035524B7E39500117AD1 /* Memory.swift */,
+				1F77035324B6D5F500117AD1 /* BitTwiddling.swift */,
 				1F77033024B6884200117AD1 /* Assets.xcassets */,
 				1F77033524B6884200117AD1 /* Main.storyboard */,
 				1F77033824B6884200117AD1 /* Info.plist */,
@@ -207,8 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F77035024B6893D00117AD1 /* RGBA32.swift in Sources */,
+				1F77034F24B6893D00117AD1 /* MyImage.swift in Sources */,
+				1F77035424B6D5F500117AD1 /* BitTwiddling.swift in Sources */,
+				1F77035624B7E39500117AD1 /* Memory.swift in Sources */,
 				1F77032F24B6883F00117AD1 /* ContentView.swift in Sources */,
 				1F77032D24B6883F00117AD1 /* AppDelegate.swift in Sources */,
+				1F77035224B6CD7C00117AD1 /* M68000.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

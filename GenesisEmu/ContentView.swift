@@ -9,9 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    let myImage = MyImage.testImage(width: 16, height: 16)
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        Image(myImage.image()!, scale: 0.05, label: Text("My Image"))
+            .interpolation(.none)
     }
 }
 

@@ -18,6 +18,7 @@
 		1F77035224B6CD7C00117AD1 /* M68000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77035124B6CD7C00117AD1 /* M68000.swift */; };
 		1F77035424B6D5F500117AD1 /* BitTwiddling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77035324B6D5F500117AD1 /* BitTwiddling.swift */; };
 		1F77035624B7E39500117AD1 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77035524B7E39500117AD1 /* Memory.swift */; };
+		1F77035824B8FF9E00117AD1 /* Cartridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77035724B8FF9E00117AD1 /* Cartridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1F77035124B6CD7C00117AD1 /* M68000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M68000.swift; sourceTree = "<group>"; };
 		1F77035324B6D5F500117AD1 /* BitTwiddling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitTwiddling.swift; sourceTree = "<group>"; };
 		1F77035524B7E39500117AD1 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		1F77035724B8FF9E00117AD1 /* Cartridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				1F77032E24B6883F00117AD1 /* ContentView.swift */,
 				1F77035124B6CD7C00117AD1 /* M68000.swift */,
 				1F77035524B7E39500117AD1 /* Memory.swift */,
+				1F77035724B8FF9E00117AD1 /* Cartridge.swift */,
 				1F77035324B6D5F500117AD1 /* BitTwiddling.swift */,
 				1F77033024B6884200117AD1 /* Assets.xcassets */,
 				1F77033524B6884200117AD1 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 				1F77032F24B6883F00117AD1 /* ContentView.swift in Sources */,
 				1F77032D24B6883F00117AD1 /* AppDelegate.swift in Sources */,
 				1F77035224B6CD7C00117AD1 /* M68000.swift in Sources */,
+				1F77035824B8FF9E00117AD1 /* Cartridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

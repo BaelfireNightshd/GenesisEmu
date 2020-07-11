@@ -9,6 +9,7 @@
 import Foundation
 
 struct Memory {
+    let cart = Cartidge()
 //    Start address     End address     Description
 //    $000000           $3FFFFF         Cartridge ROM/RAM
 //    $400000           $7FFFFF         Reserved (used by the Sega CD and 32x)
@@ -56,5 +57,26 @@ struct Memory {
 //    $C0001E           $FEFFFF         Reserved
 //    $FF0000           $FFFFFF         68000 RAM
     
+    func readLong(address: UInt32) -> UInt32 {
+        let high = readWord(address: address)
+        let low = readWord(address: address + 2)
+        return BitTwiddling.uInt16toUInt32(high: high, low: low)
+    }
     
+    func readWord(address: UInt32) -> UInt16 {
+        let high = readByte(address: address)
+        let low = readByte(address: address + 1)
+        return BitTwiddling.uInt8toUInt16(high: high, low: low)
+    }
+    
+    func readByte(address: UInt32) -> UInt8 {
+        var data: UInt8 = 0xff
+        
+        switch address {
+        case 0x000000..<0x400000:
+            data = cart.readByte(address: address)
+        default: print("address 0x\(String(format: "%06X", address)) is unimplemented in Memory.swift")
+        }
+        return data
+    }
 }

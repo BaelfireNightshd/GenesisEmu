@@ -22,4 +22,20 @@ struct M68000 {
     
     // Condition code register
     var condReg = UInt16(0)
+    
+    let memory: Memory
+    
+    init() {
+        memory = Memory()
+        pcReg = memory.readLong(address: 0x000004)
+        uspReg = memory.readLong(address: 0x000000)
+        print("PC: \(String(format: "%06X", pcReg))")
+        print("USP: \(String(format: "%06X", uspReg))")
+    }
+    
+    
+    
+    func step() {
+        
+    }
 }
